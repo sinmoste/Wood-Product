@@ -1,0 +1,49 @@
+:root{
+    --text-color:#f5f5f5;
+    --background-color:#222021;
+    --button-color:#728BAD;
+}
+.text-title{
+    font-size: 90px;
+    padding:0;
+    margin: 0 0 125px 150px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #728bad;
+    border-radius: 42px;
+    color:#F5F5F5;
+}
+.btn:hover{
+    color: #8E3921;
+    background-color: #D5DCEE;
+}
+/* table */
+th,td{
+    
+    padding:0;
+    width:25%;
+}
+.border-none{
+    border:none;
+}
+li .title--location{
+    color:#A3B8D7;
+}
+.table-h-t{
+    height: 500px;
+}
+.table-h-b{
+    height:322px;
+}
+.table-w-l{
+    width: 611px;
+}
+
+.table-w-r{
+    width:482px;
+}
+
+
+

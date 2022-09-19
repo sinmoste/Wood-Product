@@ -1,0 +1,356 @@
+/* IPHONE */
+@media  (min-width:375px) and (max-width:991px){
+    /* custom class */
+    .hide-m{
+        display: none;
+    }
+    /* end custom class */
+    .header__background-img{
+        width:80%;
+    }
+    .header__list{
+        display: none;
+    }
+    .header__logo{
+        margin-top:42px;
+        margin-left:20px;
+        width: auto;
+        height: auto;
+    }
+    .header__logo-img{
+        height: 36px;
+        width:85px;
+    }
+    .header__menu{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 10px;   
+    }
+    .menu-icon-m{
+        font-size: 25px;
+    }
+    .error-404{
+        margin-top: 70px;
+    }
+    .error-404 h1{
+        text-align: center;
+        font-size: 150px;
+        height: 105px;
+        line-height: 100px;
+        letter-spacing: 1cm;
+        margin:0 60px;
+    }
+    .error-404__opps{
+        font-size: 30px;
+        padding-top:45px;
+        padding-bottom: 12px;
+    }
+    .header__menu--item-link{
+        font-size:20px;
+    }
+    .error-404__text{
+        font-size:15px;
+    }
+    .error-404__btn{
+        height: 33px;
+        width: 195px;
+        font-size: 15px;
+    }
+    /* INdex */
+    
+    .text-title{
+        font-size: 30px;
+        margin:0;
+        margin-left:19px;
+    }
+    .product__title{
+        margin-bottom: 90px;
+    }
+    .header__image-main{
+        height: auto;
+        width: auto;
+        text-align: right;
+    }
+    .header__container{
+        height: 500px;
+    }
+    .container{
+        margin-top:150px;
+    }
+    .product__ads{
+        width: auto;
+    }
+    .product__introduce{
+        margin-top:0;
+    }
+    .product__introduce-item{
+        justify-content: space-around;
+    }
+    .product__ads-img{
+        width: 90px;
+    }
+    .product__ads-text{
+        font-size:20px;
+        margin:16px 0 20px 0;
+    }
+    .product__ads-item{
+        padding:0;
+    }
+    .product__ads-item--label{
+        font-size:15px;
+    }
+    .kitchen__room{
+        padding-top:117px;
+    }
+    .kitchen__room-title{
+        margin-left: 19px;
+        margin-bottom: 46px;
+    }
+    .kitchen__room--slider{
+        margin-left:14px;
+    }
+    .kitchen__room-icon{
+        font-size:1.7rem;
+    }
+    .kitchen__room--image{
+        width: 72%;
+    }
+    .kitchen__room-img{
+        width:100%;
+    }
+    .kitchen__room-dot .dot{
+        width: 5px;
+        height: 5px;
+    }
+    .dot:last-child{
+        border:5px solid var(--button-color);
+    }
+    .Advantages{
+        margin-top:93px;
+    }
+    .avantages__info{
+        flex-direction: column-reverse;
+    }
+    .avantages__image{
+        margin:46px 14px 46px 11px;
+    }
+    .Advantages__img{
+        width:350px;
+        object-fit: cover;
+        margin-right: 0;
+    }
+    .Advantages__list{
+        margin-left: 17px;
+        margin-top:46px;
+        width: auto;
+    }
+    .Advantages__item{
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .advantages__receive{
+        margin-top:46px;
+        width:220px;
+        font-size:15px;
+        height: 33px;
+    }
+    .about__us{
+        margin-top:93px;
+        width:80%;
+        height: 675px;
+    }
+    .about__us-title{
+        padding:47px 0 0 0;
+        height: 40px;
+    }
+    .about__us-image{
+        height: 65%;
+    }
+    .about__us-image--1{
+        width:111px;
+        position: absolute;
+    }
+    .about__us-image--1:first-child {
+        top: 47px;
+        right: 36px;
+    }
+    .about__us-image--1:last-child{
+        bottom: 29px;
+        right: 75px;
+        
+    }
+    .about__us-image--2{
+        top: 65px;
+        right: 120px;
+    }
+    .about__us-image-background{
+        top:60px;
+        right: 115px;
+        border-radius: 30px;
+    }
+    .about__us-image-background,
+    .about__us-image--2{
+        width: 182px;
+        height: 182px;
+    }
+    .about__us-contact{
+        padding:0 47px 0 19px;
+        width: auto;
+        height: auto;
+    }
+    .about__us-contact-label{
+        font-size: 15px;
+        padding-top:39px;
+    }
+   
+    .about__us-image,
+    .about__us-image-mid{
+        position: relative;
+    }
+    .question{
+        margin:77px 0 0 0;
+
+    }
+    .question__content{
+        flex-direction: column-reverse;
+    }
+    .question-title{
+        padding: 0;
+        text-align: left;
+    }
+    .question__form{
+        width: auto;
+        height: auto;
+        margin-top:46px;
+    }
+    .question__input{
+        width:auto;
+        margin-left: 13px;
+        font-size: 13px;
+        padding-left: 10px;
+        border-radius: 20px;
+        width:80%;
+    }
+    .question__item{
+        height: 40px;
+    }
+    .question__item-content{
+        height: 134px;
+    }
+    .question__btn{
+        margin-top:23px;
+        margin-left: 13px;
+        height: 34px;
+        width:100px;
+        font-size: 15px;
+    }
+    .question-label{
+        padding-top:11px;
+        margin-left:20px;
+        text-align: left;
+        font-size: 15px;
+        width:50%;
+        text-indent: 0;
+    }
+    .footer__contact{
+        display: block;
+        padding:0;
+        
+        text-align: center;
+
+    }
+    .footer__policy,
+    .footer__img{
+        display: none;
+    }
+    .footer__contact--img{
+        padding-top: 72px;
+        padding-bottom: 43px;
+    }
+    .footer__logo{
+        max-width: 150px;
+    }
+    .footer__contact-location,
+    .footer__contact-phone,
+    .footer__contact-m{
+        font-size:24px;
+        margin-left: 0;
+        padding:5px 0;
+    }
+    .header__logo{
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    .header__logo img{
+        width:85px;
+        height: 36px;
+    }
+    .header--border{
+        height: 82px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .contact--main{
+            display: block;
+    }
+    .contact{
+        margin-top: 23px;
+        padding:0;
+    }
+    .contact__info--place{
+        margin:35px 0 49px 19px;
+    }
+    .contact__info-phone, .contact__info-location
+    {
+        font-size: 20px;
+    }
+    .contact__info--icon{
+        font-size: 30px;
+        width: auto;
+    }
+    .contact__img{
+        margin:0 15px;
+    }
+    .contact__img img{
+        width: 100%;
+    }
+    .prices--slider{
+        margin:57px 10px 0 10px;
+        
+        flex-wrap: unset;
+    }
+    .prices__book--table{
+        font-size: 13px;
+        border-radius: 20px;
+        margin:5px;
+    }
+    .prices__book--table tr{
+        height: 25px;
+    }
+    .prices__book--table p{
+        transform: translateY(5px);
+    }
+    /* chung */
+    .table-w-l{
+       max-width: 300px;
+        width: 55%;
+    }
+    .table-w-r{
+        max-width: 200px;
+        width:35%;
+    }
+    .table-h-t{
+        height: 137px;
+    }
+    .table-h-b{
+        height: 88px;
+    }
+
+}  
+
+@media (min-width:992px){
+    .hide-d{
+        display: none;
+    }
+}
